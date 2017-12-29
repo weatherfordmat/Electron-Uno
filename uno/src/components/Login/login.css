@@ -1,0 +1,24 @@
+.loginBox {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+.portal {
+    height: 300px;
+    width: 275px;
+    border: 10px double crimson;
+    align-self: center;
+    background-color: white;
+    text-align: center;
+}
+button {
+    border: none;
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}

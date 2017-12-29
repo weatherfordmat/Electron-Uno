@@ -1,0 +1,35 @@
+.grid {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  .grid > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .box { 
+      margin: 20px; 
+    }
+  .red { 
+      background-color: red; 
+    }
+  .green { 
+      background-color: green; 
+    }
+  .blue { 
+      background-color: blue; 
+    }
+  .yellow { background-color: yellow; 
+}

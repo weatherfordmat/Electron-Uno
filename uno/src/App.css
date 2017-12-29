@@ -1,0 +1,72 @@
+.userHand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.badDrop {
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 5%;
+    cursor: pointer; 
+    border: 1.5px solid red;
+}
+
+.goodDrop {
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 5%;
+    cursor: pointer;
+    border: 1.5px solid #32cd32;
+}
+
+.plainDrop {
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+.myCards {
+    width: 100px;
+    margin: -10px;
+    margin-bottom: 5%;
+}
+
+.myCards:hover {
+    cursor: pointer;
+}
+
+.centerDraw {
+    margin-top: 20%;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.score {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    color: orange;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.col {
+    flex-direction: column;
+}
+.draw {
+     background-color: crimson;
+     font-size: 15px;
+     cursor: pointer;
+     color: white;
+     padding: 5px;
+     position: absolute;
+     border-radius: 0px;
+     width: 100px;
+     margin-top: 155px;
+}

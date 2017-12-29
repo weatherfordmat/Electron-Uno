@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  background-color: slategray;
+  background-size: cover;
+  background-image: url('http://touchechicago.com/wp-content/uploads/2013/10/wood-bg.jpg');
+  background-repeat: no-repeat;
+
+}
